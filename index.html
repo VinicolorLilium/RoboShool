@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>RoboShool</title>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <!-- <style>body{opacity: 0;}</style> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20240417112204" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20240417112204">
+  <!-- <meta name="robots" content="noindex, nofollow"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+  <div class="header__wrapper">
+    <div class="header__inner">
+      <a href="#" class="header__logo" title="ROBO.SCHOOL">ROBO.SCHOOL</a>
+      <a href="tel:+78000001122" class="header__btn phone-btn">+7 800 000 11 22</a>
+      <div class="header__menu menu">
+        <button type="button" class="menu__icon icon-menu"><span></span></button>
+        <nav class="menu__body">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#about" class="menu__link">О школе</a></li>
+            <li class="menu__item"><a href="#coach" class="menu__link">Тренеры</a></li>
+            <li class="menu__item"><a href="#services" class="menu__link">Стоимость</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+    <main class="page">
+      <!-- ========================================================= -->
+      <section class="page__banner banner" id="banner">
+        <div class="banner__container">
+          <div class="banner__inner">
+            <h1 class="banner__title">ROBO SCHOOL</h1>
+            <p class="banner__subtitle">Курсы повышения квалификации по робототехнике для педагогов начальной школы
+            </p>
+            <a href="" class="banner__btn page-btn">Записаться на курс</a>
+          </div>
+        </div>
+      </section>
+      <!-- ========================================================= -->
+      <section class="page-about about" id="about">
+        <div class="about__container">
+          <h2 class="about__title hidden">О нас</h2>
+          <p class="about__text">
+            <span>Robo School</span> – учреждение для формирования кадрового педагогического резерва в сфере
+            робототехникии программирования
+          </p>
+          <div class="about__list">
+            <ul class="about-info">
+              <li class="about-info__item">
+                <span class="about-info__number">10</span>
+                <p class="about-info__text">УМК по различным направлениям по робототехнике</p>
+              </li>
+              <li class="about-info__item">
+                <span class="about-info__number">20</span>
+                <p class="about-info__text">Школ, в которых запущена робототехника</p>
+              </li>
+              <li class="about-info__item">
+                <span class="about-info__number">100</span>
+                <p class="about-info__text">Педагогов прошедших курсы повышения квалификации</p>
+              </li>
+              <li class="about-info__item">
+                <span class="about-info__number">10 000</span>
+                <p class="about-info__text">Обученных детей на базе собственных центров</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- ========================================================= -->
+      <section class="page-info info" id="info">
+        <div class="info__container">
+          <h2 class="info__title page-title">Что вы получите после курса</h2>
+          <div class="info__list">
+            <ul class="info-list">
+              <li class="info-list__item">
+                <h3 class="info-list__title">Удостоверение</h3>
+                <p class="info-list__text">Дающее право преподавать робототехнику для детей 6-12 лет в образовательных
+                  учреждениях</p>
+              </li>
+              <li class="info-list__item">
+                <h3 class="info-list__title">Знания</h3>
+                <p class="info-list__text">По основам разработки учебно-методических комплексов
+                  по робототехнике и программированию</p>
+              </li>
+              <li class="info-list__item">
+                <h3 class="info-list__title">Практику<span class="info-list__tooltip">i</span></h3>
+
+                <p class="info-list__text">Возможность пройти практику по преподаванию робототехники на базе R:ED LAB (в
+                  оффлайн или онлайн формате)</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- ========================================================= -->
+      <section class="page-coach coach" id="coach">
+        <div class="coach__container">
+          <h2 class="coach__title page-title">Профессиональные тренеры</h2>
+          <div class="coach__slider swiper">
+            <div class="coach__wrapper swiper-wrapper">
+              <div class="coach__slide swiper-slide slide-coach">
+                <div class="coach__item">
+                  <div class="coach__item-img">
+                    <picture><source srcset="img/coach/01.webp" type="image/webp"><img src="img/coach/01.jpeg" alt="фото"></picture>
+                  </div>
+                  <p class="coach__item-name">Ирина Лайм</p>
+                  <p class="coach__item-position">преподаватель по робототехнике</p>
+                  <a href="" data-popup="#coach-popup-1" class="coach__item-link">Подробнее</a>
+                </div>
+              </div>
+              <div class="coach__slide swiper-slide slide-coach">
+                <div class="coach__item">
+                  <div class="coach__item-img">
+                    <picture><source srcset="img/coach/02.webp" type="image/webp"><img src="img/coach/02.jpeg" alt="фото"></picture>
+                  </div>
+                  <p class="coach__item-name">Марина Орлова</p>
+                  <p class="coach__item-position">преподаватель по робототехнике</p>
+                  <a href="" data-popup="#coach-popup-2" class="coach__item-link">Подробнее</a>
+                </div>
+              </div>
+              <div class="coach__slide swiper-slide slide-coach">
+                <div class="coach__item">
+                  <div class="coach__item-img">
+                    <picture><source srcset="img/coach/03.webp" type="image/webp"><img src="img/coach/03.jpeg" alt="фото"></picture>
+                  </div>
+                  <p class="coach__item-name">Максим Петров</p>
+                  <p class="coach__item-position">преподаватель по программированию</p>
+                  <a href="" data-popup="#coach-popup-3" class="coach__item-link">Подробнее</a>
+                </div>
+              </div>
+              <div class="coach__slide swiper-slide slide-coach">
+                <div class="coach__item">
+                  <div class="coach__item-img">
+                    <picture><source srcset="img/coach/04.webp" type="image/webp"><img src="img/coach/04.jpeg" alt="фото"></picture>
+                  </div>
+                  <p class="coach__item-name">Константин Назаров</p>
+                  <p class="coach__item-position">преподаватель по робототехнике</p>
+                  <a href="" data-popup="#coach-popup-4" class="coach__item-link">Подробнее</a>
+                </div>
+              </div>
+              <div class="coach__slide swiper-slide slide-coach">
+                <div class="coach__item">
+                  <div class="coach__item-img">
+                    <picture><source srcset="img/coach/05.webp" type="image/webp"><img src="img/coach/05.jpeg" alt="фото"></picture>
+                  </div>
+                  <p class="coach__item-name">Лиза Весенняя</p>
+                  <p class="coach__item-position">преподаватель по программированию</p>
+                  <a href="" data-popup="#coach-popup-5" class="coach__item-link">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-scrollbar"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <!-- ========================================================= -->
+      <section class="page-services services" id="services">
+        <div class="services__container">
+          <h2 class="services__title page-title">Выберите <br> нужный пакет</h2>
+          <div class="services__cards cards-services">
+            <div class="cards-services__item">
+              <p class="cards-services__name">PRO</p>
+              <p class="cards-services__price">20.000 ₽</p>
+              <p class="cards-services__text">УМК по робототетхнике и программированию</p>
+              <a class="cards-services__link" href="">Оставить заявку</a>
+            </div>
+            <div class="cards-services__item">
+              <p class="cards-services__name">ROBO</p>
+              <p class="cards-services__price">15.000 ₽</p>
+              <p class="cards-services__text">УМК по робототетхнике</p>
+              <a class="cards-services__link" href="">Оставить заявку</a>
+            </div>
+            <div class="cards-services__item">
+              <p class="cards-services__name">PROG</p>
+              <p class="cards-services__price">10.000 ₽</p>
+              <p class="cards-services__text">УМК по программированию</p>
+              <a class="cards-services__link" href="">Оставить заявку</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========================================================= -->
+      <section class="page-registration registration" id="registration">
+        <div class="registration__container">
+          <h2 class="registration__title page-title">Запишитесь на курс со скидкой 10%</h2>
+          <p class="registration__subtitle">
+            Акция действительна до 10 марта 2022 года
+          </p>
+          <div class="registration__form">
+            <form class="form-registration" action="#" id="form-registration" name="form-registration">
+              <label class="hidden" for="userName">Имя</label>
+              <input class="form-registration__input" autocomplete="off" type="text" name="userName" data-error="Ошибка" placeholder="Имя" id="userName">
+              <label class="hidden" for="phone">Телефон</label>
+              <input class="form-registration__input" autocomplete="off" type="tel" name="phone" data-error="Ошибка" placeholder="Телефон" id="phone">
+              <label class="hidden" for="mail">почта</label>
+              <input class="form-registration__input" autocomplete="off" type="email" name="mail" data-error="Ошибка" placeholder="E-mail" id="mail">
+              <label class="hidden" for="btnSubmit">Оформить заявку</label>
+              <button class="form-registration__btn" type="submit" id="btnSubmit">Оформить заявку</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- ========================================================= -->
+    </main>
+    <footer class="footer">
+  <div class="footer__container">
+    <div class="footer__inner">
+      <a class="footer__logo" href="#" title="ROBO.SCHOOL">ROBO.SCHOOL</a>
+      <a class="footer__phone" href="tel:+78000001122">+7 800 000 11 22</a>
+      <p class="footer__copy">© ROBO.SCHOOL</p>
+    </div>
+  </div>
+</footer>
+  </div>
+  <div id="coach-popup-1" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close coach-popup__close">Закрыть</button>
+      <div class="coach-popup__header header-coach-popup">
+        <div class="header-coach-popup__img">
+          <picture><source srcset="img/coach/01.webp" type="image/webp"><img src="img/coach/01.jpeg" alt="фото"></picture>
+        </div>
+        <p class="header-coach-popup__name">Ирина Лайм</p>
+        <p class="header-coach-popup__position">преподаватель по робототехнике</p>
+        <ul class="header-coach-popup__social">
+          <li class="header-coach-popup__social-item">
+            <a href=""><svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M15 0C6.71582 0 0 6.71582 0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0ZM16.5635 15.6589L16.5635 23.8196L13.187 23.8196L13.187 15.6592L11.5 15.6592L11.5 12.8469L13.187 12.8469L13.187 11.1584C13.187 8.86426 14.1396 7.5 16.8457 7.5L19.0986 7.5L19.0986 10.3125L17.6904 10.3125C16.6372 10.3125 16.5674 10.7056 16.5674 11.439L16.5635 12.8467L19.1147 12.8467L18.8164 15.6589L16.5635 15.6589Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+              </svg></a>
+
+          </li>
+          <li class="header-coach-popup__social-item">
+            <a href=""><svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M15 0C6.71582 0 0 6.71582 0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0ZM11.7021 7.04834C12.5552 7.00952 12.8276 7 14.998 7L15.001 7C17.1719 7 17.4434 7.00952 18.2964 7.04834C19.1484 7.0874 19.73 7.22217 20.2397 7.41992C20.7666 7.62427 21.2114 7.89746 21.6567 8.34253C22.1016 8.78711 22.375 9.23364 22.5801 9.75977C22.7769 10.2683 22.9116 10.8496 22.9517 11.7014C22.9902 12.5547 23 12.8274 23 15C23 17.1729 22.9902 17.4448 22.9517 18.2981C22.9116 19.1494 22.7769 19.731 22.5801 20.2397C22.375 20.7659 22.1016 21.2122 21.6567 21.6567C21.2119 22.1018 20.7666 22.3757 20.2402 22.5801C19.7314 22.7781 19.1494 22.9128 18.2979 22.9519C17.4443 22.9907 17.1724 23.0002 14.9995 23.0002C12.8271 23.0002 12.5547 22.9907 11.7012 22.9519C10.8501 22.9128 10.2686 22.7781 9.75928 22.5801C9.2334 22.3757 8.78711 22.1018 8.34277 21.6567C7.89795 21.2122 7.62451 20.7659 7.41992 20.2397C7.22217 19.731 7.0874 19.1497 7.04834 18.2979C7.00977 17.4446 7 17.1729 7 15C7 12.8274 7.00977 12.5544 7.04834 11.7012C7.08643 10.8499 7.22168 10.2683 7.41992 9.75952C7.625 9.23364 7.89795 8.78711 8.34326 8.34253C8.78809 7.89771 9.23438 7.62427 9.76025 7.41992C10.269 7.22217 10.8506 7.0874 11.7021 7.04834Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+                <path
+                  d="M14.7344 8.44141C14.5723 8.44141 14.4224 8.44116 14.2832 8.44141L14.2832 8.43945C12.792 8.44116 12.5059 8.45117 11.7681 8.48438C10.9883 8.52026 10.5645 8.65039 10.2827 8.76025C9.90918 8.90552 9.64258 9.07886 9.36279 9.35889C9.08252 9.63892 8.90869 9.90552 8.76367 10.2791C8.6543 10.561 8.52393 10.9844 8.48828 11.7644C8.4502 12.6077 8.44238 12.8596 8.44238 14.9961C8.44238 17.1323 8.4502 17.3857 8.48828 18.229C8.52393 19.009 8.6543 19.4324 8.76367 19.7141C8.90918 20.0876 9.08252 20.3535 9.36279 20.6335C9.64258 20.9136 9.90918 21.0869 10.2827 21.2319C10.5649 21.3413 10.9883 21.4717 11.7681 21.5078C12.6113 21.5461 12.8647 21.5544 15.001 21.5544C17.1367 21.5544 17.3901 21.5461 18.2334 21.5078C19.0137 21.4722 19.437 21.342 19.7188 21.2322C20.0923 21.0872 20.3584 20.9138 20.6382 20.6338C20.918 20.354 21.0918 20.0881 21.2368 19.7148C21.3462 19.4331 21.4766 19.0098 21.5122 18.2297C21.5508 17.3865 21.5591 17.1331 21.5591 14.998C21.5591 12.863 21.5508 12.6096 21.5122 11.7664C21.4771 10.9863 21.3462 10.563 21.2368 10.2812C21.0913 9.90796 20.918 9.64136 20.6382 9.36133C20.3584 9.0813 20.0923 8.90796 19.7188 8.76294C19.437 8.65356 19.0137 8.52319 18.2334 8.48755C17.3901 8.44922 17.1367 8.44141 15.001 8.44141C14.9087 8.44141 14.8198 8.44141 14.7344 8.44141ZM19.271 9.76978C18.7412 9.76978 18.311 10.1992 18.311 10.7295C18.311 11.2595 18.7412 11.6895 19.271 11.6895C19.8013 11.6895 20.231 11.2595 20.231 10.7295C20.231 10.1995 19.8013 9.76953 19.271 9.76953L19.271 9.76978ZM10.8926 14.9998C10.8926 12.731 12.7319 10.8916 15.001 10.8916C17.2695 10.8916 19.1089 12.731 19.1089 14.9998C19.1089 17.2688 17.27 19.1074 15.001 19.1074C12.7319 19.1074 10.8926 17.2688 10.8926 14.9998Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+                <path
+                  d="M15 12.33C16.47 12.33 17.66 13.52 17.66 15C17.66 16.47 16.47 17.66 15 17.66C13.52 17.66 12.33 16.47 12.33 15C12.33 13.52 13.52 12.33 15 12.33L15 12.33Z"
+                  fill-opacity="1.000000" fill-rule="evenodd" />
+              </svg></a>
+
+          </li>
+        </ul>
+      </div>
+      <div class="coach-popup__tabs">
+        <div data-tabs class="coach-tab">
+          <nav data-tabs-titles class="coach-tab__navigation">
+            <button type="button" class="coach-tab__title _tab-active">Образование</button>
+            <button type="button" class="coach-tab__title">Опыт работы</button>
+            <button type="button" class="coach-tab__title">Награды</button>
+          </nav>
+          <div data-tabs-body class="coach-tab__content">
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1995 — Июнь 2000 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1996 — Июнь 2006 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1998 — Июнь 2002 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="coach-popup-2" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close coach-popup__close">Закрыть</button>
+      <div class="coach-popup__header header-coach-popup">
+        <div class="header-coach-popup__img">
+          <picture><source srcset="img/coach/02.webp" type="image/webp"><img src="img/coach/02.jpeg" alt="фото"></picture>
+        </div>
+        <p class="header-coach-popup__name">Марина Орлова</p>
+        <p class="header-coach-popup__position">преподаватель по робототехнике</p>
+        <ul class="header-coach-popup__social">
+          <li class="header-coach-popup__social-item">
+            <a href=""><svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M15 0C6.71582 0 0 6.71582 0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0ZM16.5635 15.6589L16.5635 23.8196L13.187 23.8196L13.187 15.6592L11.5 15.6592L11.5 12.8469L13.187 12.8469L13.187 11.1584C13.187 8.86426 14.1396 7.5 16.8457 7.5L19.0986 7.5L19.0986 10.3125L17.6904 10.3125C16.6372 10.3125 16.5674 10.7056 16.5674 11.439L16.5635 12.8467L19.1147 12.8467L18.8164 15.6589L16.5635 15.6589Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+              </svg></a>
+
+          </li>
+          <li class="header-coach-popup__social-item">
+            <a href=""><svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M15 0C6.71582 0 0 6.71582 0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0ZM11.7021 7.04834C12.5552 7.00952 12.8276 7 14.998 7L15.001 7C17.1719 7 17.4434 7.00952 18.2964 7.04834C19.1484 7.0874 19.73 7.22217 20.2397 7.41992C20.7666 7.62427 21.2114 7.89746 21.6567 8.34253C22.1016 8.78711 22.375 9.23364 22.5801 9.75977C22.7769 10.2683 22.9116 10.8496 22.9517 11.7014C22.9902 12.5547 23 12.8274 23 15C23 17.1729 22.9902 17.4448 22.9517 18.2981C22.9116 19.1494 22.7769 19.731 22.5801 20.2397C22.375 20.7659 22.1016 21.2122 21.6567 21.6567C21.2119 22.1018 20.7666 22.3757 20.2402 22.5801C19.7314 22.7781 19.1494 22.9128 18.2979 22.9519C17.4443 22.9907 17.1724 23.0002 14.9995 23.0002C12.8271 23.0002 12.5547 22.9907 11.7012 22.9519C10.8501 22.9128 10.2686 22.7781 9.75928 22.5801C9.2334 22.3757 8.78711 22.1018 8.34277 21.6567C7.89795 21.2122 7.62451 20.7659 7.41992 20.2397C7.22217 19.731 7.0874 19.1497 7.04834 18.2979C7.00977 17.4446 7 17.1729 7 15C7 12.8274 7.00977 12.5544 7.04834 11.7012C7.08643 10.8499 7.22168 10.2683 7.41992 9.75952C7.625 9.23364 7.89795 8.78711 8.34326 8.34253C8.78809 7.89771 9.23438 7.62427 9.76025 7.41992C10.269 7.22217 10.8506 7.0874 11.7021 7.04834Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+                <path
+                  d="M14.7344 8.44141C14.5723 8.44141 14.4224 8.44116 14.2832 8.44141L14.2832 8.43945C12.792 8.44116 12.5059 8.45117 11.7681 8.48438C10.9883 8.52026 10.5645 8.65039 10.2827 8.76025C9.90918 8.90552 9.64258 9.07886 9.36279 9.35889C9.08252 9.63892 8.90869 9.90552 8.76367 10.2791C8.6543 10.561 8.52393 10.9844 8.48828 11.7644C8.4502 12.6077 8.44238 12.8596 8.44238 14.9961C8.44238 17.1323 8.4502 17.3857 8.48828 18.229C8.52393 19.009 8.6543 19.4324 8.76367 19.7141C8.90918 20.0876 9.08252 20.3535 9.36279 20.6335C9.64258 20.9136 9.90918 21.0869 10.2827 21.2319C10.5649 21.3413 10.9883 21.4717 11.7681 21.5078C12.6113 21.5461 12.8647 21.5544 15.001 21.5544C17.1367 21.5544 17.3901 21.5461 18.2334 21.5078C19.0137 21.4722 19.437 21.342 19.7188 21.2322C20.0923 21.0872 20.3584 20.9138 20.6382 20.6338C20.918 20.354 21.0918 20.0881 21.2368 19.7148C21.3462 19.4331 21.4766 19.0098 21.5122 18.2297C21.5508 17.3865 21.5591 17.1331 21.5591 14.998C21.5591 12.863 21.5508 12.6096 21.5122 11.7664C21.4771 10.9863 21.3462 10.563 21.2368 10.2812C21.0913 9.90796 20.918 9.64136 20.6382 9.36133C20.3584 9.0813 20.0923 8.90796 19.7188 8.76294C19.437 8.65356 19.0137 8.52319 18.2334 8.48755C17.3901 8.44922 17.1367 8.44141 15.001 8.44141C14.9087 8.44141 14.8198 8.44141 14.7344 8.44141ZM19.271 9.76978C18.7412 9.76978 18.311 10.1992 18.311 10.7295C18.311 11.2595 18.7412 11.6895 19.271 11.6895C19.8013 11.6895 20.231 11.2595 20.231 10.7295C20.231 10.1995 19.8013 9.76953 19.271 9.76953L19.271 9.76978ZM10.8926 14.9998C10.8926 12.731 12.7319 10.8916 15.001 10.8916C17.2695 10.8916 19.1089 12.731 19.1089 14.9998C19.1089 17.2688 17.27 19.1074 15.001 19.1074C12.7319 19.1074 10.8926 17.2688 10.8926 14.9998Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+                <path
+                  d="M15 12.33C16.47 12.33 17.66 13.52 17.66 15C17.66 16.47 16.47 17.66 15 17.66C13.52 17.66 12.33 16.47 12.33 15C12.33 13.52 13.52 12.33 15 12.33L15 12.33Z"
+                  fill-opacity="1.000000" fill-rule="evenodd" />
+              </svg></a>
+
+          </li>
+        </ul>
+      </div>
+      <div class="coach-popup__tabs">
+        <div data-tabs class="coach-tab">
+          <nav data-tabs-titles class="coach-tab__navigation">
+            <button type="button" class="coach-tab__title _tab-active">Образование</button>
+            <button type="button" class="coach-tab__title">Опыт работы</button>
+            <button type="button" class="coach-tab__title">Награды</button>
+          </nav>
+          <div data-tabs-body class="coach-tab__content">
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1995 — Июнь 2000 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1996 — Июнь 2006 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1998 — Июнь 2002 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="coach-popup-3" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close coach-popup__close">Закрыть</button>
+      <div class="coach-popup__header header-coach-popup">
+        <div class="header-coach-popup__img">
+          <picture><source srcset="img/coach/03.webp" type="image/webp"><img src="img/coach/03.jpeg" alt="фото"></picture>
+        </div>
+        <p class="header-coach-popup__name">Максим Петров</p>
+        <p class="header-coach-popup__position">преподаватель по программированию</p>
+        <ul class="header-coach-popup__social">
+          <li class="header-coach-popup__social-item">
+            <a href=""><svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M15 0C6.71582 0 0 6.71582 0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0ZM16.5635 15.6589L16.5635 23.8196L13.187 23.8196L13.187 15.6592L11.5 15.6592L11.5 12.8469L13.187 12.8469L13.187 11.1584C13.187 8.86426 14.1396 7.5 16.8457 7.5L19.0986 7.5L19.0986 10.3125L17.6904 10.3125C16.6372 10.3125 16.5674 10.7056 16.5674 11.439L16.5635 12.8467L19.1147 12.8467L18.8164 15.6589L16.5635 15.6589Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+              </svg></a>
+
+          </li>
+          <li class="header-coach-popup__social-item">
+            <a href=""><svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M15 0C6.71582 0 0 6.71582 0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0ZM11.7021 7.04834C12.5552 7.00952 12.8276 7 14.998 7L15.001 7C17.1719 7 17.4434 7.00952 18.2964 7.04834C19.1484 7.0874 19.73 7.22217 20.2397 7.41992C20.7666 7.62427 21.2114 7.89746 21.6567 8.34253C22.1016 8.78711 22.375 9.23364 22.5801 9.75977C22.7769 10.2683 22.9116 10.8496 22.9517 11.7014C22.9902 12.5547 23 12.8274 23 15C23 17.1729 22.9902 17.4448 22.9517 18.2981C22.9116 19.1494 22.7769 19.731 22.5801 20.2397C22.375 20.7659 22.1016 21.2122 21.6567 21.6567C21.2119 22.1018 20.7666 22.3757 20.2402 22.5801C19.7314 22.7781 19.1494 22.9128 18.2979 22.9519C17.4443 22.9907 17.1724 23.0002 14.9995 23.0002C12.8271 23.0002 12.5547 22.9907 11.7012 22.9519C10.8501 22.9128 10.2686 22.7781 9.75928 22.5801C9.2334 22.3757 8.78711 22.1018 8.34277 21.6567C7.89795 21.2122 7.62451 20.7659 7.41992 20.2397C7.22217 19.731 7.0874 19.1497 7.04834 18.2979C7.00977 17.4446 7 17.1729 7 15C7 12.8274 7.00977 12.5544 7.04834 11.7012C7.08643 10.8499 7.22168 10.2683 7.41992 9.75952C7.625 9.23364 7.89795 8.78711 8.34326 8.34253C8.78809 7.89771 9.23438 7.62427 9.76025 7.41992C10.269 7.22217 10.8506 7.0874 11.7021 7.04834Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+                <path
+                  d="M14.7344 8.44141C14.5723 8.44141 14.4224 8.44116 14.2832 8.44141L14.2832 8.43945C12.792 8.44116 12.5059 8.45117 11.7681 8.48438C10.9883 8.52026 10.5645 8.65039 10.2827 8.76025C9.90918 8.90552 9.64258 9.07886 9.36279 9.35889C9.08252 9.63892 8.90869 9.90552 8.76367 10.2791C8.6543 10.561 8.52393 10.9844 8.48828 11.7644C8.4502 12.6077 8.44238 12.8596 8.44238 14.9961C8.44238 17.1323 8.4502 17.3857 8.48828 18.229C8.52393 19.009 8.6543 19.4324 8.76367 19.7141C8.90918 20.0876 9.08252 20.3535 9.36279 20.6335C9.64258 20.9136 9.90918 21.0869 10.2827 21.2319C10.5649 21.3413 10.9883 21.4717 11.7681 21.5078C12.6113 21.5461 12.8647 21.5544 15.001 21.5544C17.1367 21.5544 17.3901 21.5461 18.2334 21.5078C19.0137 21.4722 19.437 21.342 19.7188 21.2322C20.0923 21.0872 20.3584 20.9138 20.6382 20.6338C20.918 20.354 21.0918 20.0881 21.2368 19.7148C21.3462 19.4331 21.4766 19.0098 21.5122 18.2297C21.5508 17.3865 21.5591 17.1331 21.5591 14.998C21.5591 12.863 21.5508 12.6096 21.5122 11.7664C21.4771 10.9863 21.3462 10.563 21.2368 10.2812C21.0913 9.90796 20.918 9.64136 20.6382 9.36133C20.3584 9.0813 20.0923 8.90796 19.7188 8.76294C19.437 8.65356 19.0137 8.52319 18.2334 8.48755C17.3901 8.44922 17.1367 8.44141 15.001 8.44141C14.9087 8.44141 14.8198 8.44141 14.7344 8.44141ZM19.271 9.76978C18.7412 9.76978 18.311 10.1992 18.311 10.7295C18.311 11.2595 18.7412 11.6895 19.271 11.6895C19.8013 11.6895 20.231 11.2595 20.231 10.7295C20.231 10.1995 19.8013 9.76953 19.271 9.76953L19.271 9.76978ZM10.8926 14.9998C10.8926 12.731 12.7319 10.8916 15.001 10.8916C17.2695 10.8916 19.1089 12.731 19.1089 14.9998C19.1089 17.2688 17.27 19.1074 15.001 19.1074C12.7319 19.1074 10.8926 17.2688 10.8926 14.9998Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+                <path
+                  d="M15 12.33C16.47 12.33 17.66 13.52 17.66 15C17.66 16.47 16.47 17.66 15 17.66C13.52 17.66 12.33 16.47 12.33 15C12.33 13.52 13.52 12.33 15 12.33L15 12.33Z"
+                  fill-opacity="1.000000" fill-rule="evenodd" />
+              </svg></a>
+
+          </li>
+        </ul>
+      </div>
+      <div class="coach-popup__tabs">
+        <div data-tabs class="coach-tab">
+          <nav data-tabs-titles class="coach-tab__navigation">
+            <button type="button" class="coach-tab__title _tab-active">Образование</button>
+            <button type="button" class="coach-tab__title">Опыт работы</button>
+            <button type="button" class="coach-tab__title">Награды</button>
+          </nav>
+          <div data-tabs-body class="coach-tab__content">
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1995 — Июнь 2000 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1996 — Июнь 2006 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1998 — Июнь 2002 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="coach-popup-4" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close coach-popup__close">Закрыть</button>
+      <div class="coach-popup__header header-coach-popup">
+        <div class="header-coach-popup__img">
+          <picture><source srcset="img/coach/04.webp" type="image/webp"><img src="img/coach/04.jpeg" alt="фото"></picture>
+        </div>
+        <p class="header-coach-popup__name">Константин Назаров</p>
+        <p class="header-coach-popup__position">преподаватель по робототехнике</p>
+        <ul class="header-coach-popup__social">
+          <li class="header-coach-popup__social-item">
+            <a href=""><svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M15 0C6.71582 0 0 6.71582 0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0ZM16.5635 15.6589L16.5635 23.8196L13.187 23.8196L13.187 15.6592L11.5 15.6592L11.5 12.8469L13.187 12.8469L13.187 11.1584C13.187 8.86426 14.1396 7.5 16.8457 7.5L19.0986 7.5L19.0986 10.3125L17.6904 10.3125C16.6372 10.3125 16.5674 10.7056 16.5674 11.439L16.5635 12.8467L19.1147 12.8467L18.8164 15.6589L16.5635 15.6589Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+              </svg></a>
+
+          </li>
+          <li class="header-coach-popup__social-item">
+            <a href=""><svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M15 0C6.71582 0 0 6.71582 0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0ZM11.7021 7.04834C12.5552 7.00952 12.8276 7 14.998 7L15.001 7C17.1719 7 17.4434 7.00952 18.2964 7.04834C19.1484 7.0874 19.73 7.22217 20.2397 7.41992C20.7666 7.62427 21.2114 7.89746 21.6567 8.34253C22.1016 8.78711 22.375 9.23364 22.5801 9.75977C22.7769 10.2683 22.9116 10.8496 22.9517 11.7014C22.9902 12.5547 23 12.8274 23 15C23 17.1729 22.9902 17.4448 22.9517 18.2981C22.9116 19.1494 22.7769 19.731 22.5801 20.2397C22.375 20.7659 22.1016 21.2122 21.6567 21.6567C21.2119 22.1018 20.7666 22.3757 20.2402 22.5801C19.7314 22.7781 19.1494 22.9128 18.2979 22.9519C17.4443 22.9907 17.1724 23.0002 14.9995 23.0002C12.8271 23.0002 12.5547 22.9907 11.7012 22.9519C10.8501 22.9128 10.2686 22.7781 9.75928 22.5801C9.2334 22.3757 8.78711 22.1018 8.34277 21.6567C7.89795 21.2122 7.62451 20.7659 7.41992 20.2397C7.22217 19.731 7.0874 19.1497 7.04834 18.2979C7.00977 17.4446 7 17.1729 7 15C7 12.8274 7.00977 12.5544 7.04834 11.7012C7.08643 10.8499 7.22168 10.2683 7.41992 9.75952C7.625 9.23364 7.89795 8.78711 8.34326 8.34253C8.78809 7.89771 9.23438 7.62427 9.76025 7.41992C10.269 7.22217 10.8506 7.0874 11.7021 7.04834Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+                <path
+                  d="M14.7344 8.44141C14.5723 8.44141 14.4224 8.44116 14.2832 8.44141L14.2832 8.43945C12.792 8.44116 12.5059 8.45117 11.7681 8.48438C10.9883 8.52026 10.5645 8.65039 10.2827 8.76025C9.90918 8.90552 9.64258 9.07886 9.36279 9.35889C9.08252 9.63892 8.90869 9.90552 8.76367 10.2791C8.6543 10.561 8.52393 10.9844 8.48828 11.7644C8.4502 12.6077 8.44238 12.8596 8.44238 14.9961C8.44238 17.1323 8.4502 17.3857 8.48828 18.229C8.52393 19.009 8.6543 19.4324 8.76367 19.7141C8.90918 20.0876 9.08252 20.3535 9.36279 20.6335C9.64258 20.9136 9.90918 21.0869 10.2827 21.2319C10.5649 21.3413 10.9883 21.4717 11.7681 21.5078C12.6113 21.5461 12.8647 21.5544 15.001 21.5544C17.1367 21.5544 17.3901 21.5461 18.2334 21.5078C19.0137 21.4722 19.437 21.342 19.7188 21.2322C20.0923 21.0872 20.3584 20.9138 20.6382 20.6338C20.918 20.354 21.0918 20.0881 21.2368 19.7148C21.3462 19.4331 21.4766 19.0098 21.5122 18.2297C21.5508 17.3865 21.5591 17.1331 21.5591 14.998C21.5591 12.863 21.5508 12.6096 21.5122 11.7664C21.4771 10.9863 21.3462 10.563 21.2368 10.2812C21.0913 9.90796 20.918 9.64136 20.6382 9.36133C20.3584 9.0813 20.0923 8.90796 19.7188 8.76294C19.437 8.65356 19.0137 8.52319 18.2334 8.48755C17.3901 8.44922 17.1367 8.44141 15.001 8.44141C14.9087 8.44141 14.8198 8.44141 14.7344 8.44141ZM19.271 9.76978C18.7412 9.76978 18.311 10.1992 18.311 10.7295C18.311 11.2595 18.7412 11.6895 19.271 11.6895C19.8013 11.6895 20.231 11.2595 20.231 10.7295C20.231 10.1995 19.8013 9.76953 19.271 9.76953L19.271 9.76978ZM10.8926 14.9998C10.8926 12.731 12.7319 10.8916 15.001 10.8916C17.2695 10.8916 19.1089 12.731 19.1089 14.9998C19.1089 17.2688 17.27 19.1074 15.001 19.1074C12.7319 19.1074 10.8926 17.2688 10.8926 14.9998Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+                <path
+                  d="M15 12.33C16.47 12.33 17.66 13.52 17.66 15C17.66 16.47 16.47 17.66 15 17.66C13.52 17.66 12.33 16.47 12.33 15C12.33 13.52 13.52 12.33 15 12.33L15 12.33Z"
+                  fill-opacity="1.000000" fill-rule="evenodd" />
+              </svg></a>
+
+          </li>
+        </ul>
+      </div>
+      <div class="coach-popup__tabs">
+        <div data-tabs class="coach-tab">
+          <nav data-tabs-titles class="coach-tab__navigation">
+            <button type="button" class="coach-tab__title _tab-active">Образование</button>
+            <button type="button" class="coach-tab__title">Опыт работы</button>
+            <button type="button" class="coach-tab__title">Награды</button>
+          </nav>
+          <div data-tabs-body class="coach-tab__content">
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1995 — Июнь 2000 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1996 — Июнь 2006 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1998 — Июнь 2002 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="coach-popup-5" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close coach-popup__close">Закрыть</button>
+      <div class="coach-popup__header header-coach-popup">
+        <div class="header-coach-popup__img">
+          <picture><source srcset="img/coach/05.webp" type="image/webp"><img src="img/coach/05.jpeg" alt="фото"></picture>
+        </div>
+        <p class="header-coach-popup__name">Лиза Весенняя</p>
+        <p class="header-coach-popup__position">Лиза Весенняя</p>
+        <ul class="header-coach-popup__social">
+          <li class="header-coach-popup__social-item">
+            <a href=""><svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M15 0C6.71582 0 0 6.71582 0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0ZM16.5635 15.6589L16.5635 23.8196L13.187 23.8196L13.187 15.6592L11.5 15.6592L11.5 12.8469L13.187 12.8469L13.187 11.1584C13.187 8.86426 14.1396 7.5 16.8457 7.5L19.0986 7.5L19.0986 10.3125L17.6904 10.3125C16.6372 10.3125 16.5674 10.7056 16.5674 11.439L16.5635 12.8467L19.1147 12.8467L18.8164 15.6589L16.5635 15.6589Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+              </svg></a>
+
+          </li>
+          <li class="header-coach-popup__social-item">
+            <a href=""><svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M15 0C6.71582 0 0 6.71582 0 15C0 23.2842 6.71582 30 15 30C23.2842 30 30 23.2842 30 15C30 6.71582 23.2842 0 15 0ZM11.7021 7.04834C12.5552 7.00952 12.8276 7 14.998 7L15.001 7C17.1719 7 17.4434 7.00952 18.2964 7.04834C19.1484 7.0874 19.73 7.22217 20.2397 7.41992C20.7666 7.62427 21.2114 7.89746 21.6567 8.34253C22.1016 8.78711 22.375 9.23364 22.5801 9.75977C22.7769 10.2683 22.9116 10.8496 22.9517 11.7014C22.9902 12.5547 23 12.8274 23 15C23 17.1729 22.9902 17.4448 22.9517 18.2981C22.9116 19.1494 22.7769 19.731 22.5801 20.2397C22.375 20.7659 22.1016 21.2122 21.6567 21.6567C21.2119 22.1018 20.7666 22.3757 20.2402 22.5801C19.7314 22.7781 19.1494 22.9128 18.2979 22.9519C17.4443 22.9907 17.1724 23.0002 14.9995 23.0002C12.8271 23.0002 12.5547 22.9907 11.7012 22.9519C10.8501 22.9128 10.2686 22.7781 9.75928 22.5801C9.2334 22.3757 8.78711 22.1018 8.34277 21.6567C7.89795 21.2122 7.62451 20.7659 7.41992 20.2397C7.22217 19.731 7.0874 19.1497 7.04834 18.2979C7.00977 17.4446 7 17.1729 7 15C7 12.8274 7.00977 12.5544 7.04834 11.7012C7.08643 10.8499 7.22168 10.2683 7.41992 9.75952C7.625 9.23364 7.89795 8.78711 8.34326 8.34253C8.78809 7.89771 9.23438 7.62427 9.76025 7.41992C10.269 7.22217 10.8506 7.0874 11.7021 7.04834Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+                <path
+                  d="M14.7344 8.44141C14.5723 8.44141 14.4224 8.44116 14.2832 8.44141L14.2832 8.43945C12.792 8.44116 12.5059 8.45117 11.7681 8.48438C10.9883 8.52026 10.5645 8.65039 10.2827 8.76025C9.90918 8.90552 9.64258 9.07886 9.36279 9.35889C9.08252 9.63892 8.90869 9.90552 8.76367 10.2791C8.6543 10.561 8.52393 10.9844 8.48828 11.7644C8.4502 12.6077 8.44238 12.8596 8.44238 14.9961C8.44238 17.1323 8.4502 17.3857 8.48828 18.229C8.52393 19.009 8.6543 19.4324 8.76367 19.7141C8.90918 20.0876 9.08252 20.3535 9.36279 20.6335C9.64258 20.9136 9.90918 21.0869 10.2827 21.2319C10.5649 21.3413 10.9883 21.4717 11.7681 21.5078C12.6113 21.5461 12.8647 21.5544 15.001 21.5544C17.1367 21.5544 17.3901 21.5461 18.2334 21.5078C19.0137 21.4722 19.437 21.342 19.7188 21.2322C20.0923 21.0872 20.3584 20.9138 20.6382 20.6338C20.918 20.354 21.0918 20.0881 21.2368 19.7148C21.3462 19.4331 21.4766 19.0098 21.5122 18.2297C21.5508 17.3865 21.5591 17.1331 21.5591 14.998C21.5591 12.863 21.5508 12.6096 21.5122 11.7664C21.4771 10.9863 21.3462 10.563 21.2368 10.2812C21.0913 9.90796 20.918 9.64136 20.6382 9.36133C20.3584 9.0813 20.0923 8.90796 19.7188 8.76294C19.437 8.65356 19.0137 8.52319 18.2334 8.48755C17.3901 8.44922 17.1367 8.44141 15.001 8.44141C14.9087 8.44141 14.8198 8.44141 14.7344 8.44141ZM19.271 9.76978C18.7412 9.76978 18.311 10.1992 18.311 10.7295C18.311 11.2595 18.7412 11.6895 19.271 11.6895C19.8013 11.6895 20.231 11.2595 20.231 10.7295C20.231 10.1995 19.8013 9.76953 19.271 9.76953L19.271 9.76978ZM10.8926 14.9998C10.8926 12.731 12.7319 10.8916 15.001 10.8916C17.2695 10.8916 19.1089 12.731 19.1089 14.9998C19.1089 17.2688 17.27 19.1074 15.001 19.1074C12.7319 19.1074 10.8926 17.2688 10.8926 14.9998Z"
+                  clip-rule="evenodd" fill-opacity="1.000000" fill-rule="evenodd" />
+                <path
+                  d="M15 12.33C16.47 12.33 17.66 13.52 17.66 15C17.66 16.47 16.47 17.66 15 17.66C13.52 17.66 12.33 16.47 12.33 15C12.33 13.52 13.52 12.33 15 12.33L15 12.33Z"
+                  fill-opacity="1.000000" fill-rule="evenodd" />
+              </svg></a>
+
+          </li>
+        </ul>
+      </div>
+      <div class="coach-popup__tabs">
+        <div data-tabs class="coach-tab">
+          <nav data-tabs-titles class="coach-tab__navigation">
+            <button type="button" class="coach-tab__title _tab-active">Образование</button>
+            <button type="button" class="coach-tab__title">Опыт работы</button>
+            <button type="button" class="coach-tab__title">Награды</button>
+          </nav>
+          <div data-tabs-body class="coach-tab__content">
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1995 — Июнь 2000 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1996 — Июнь 2006 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+            <div class="coach-tab__body">
+              <p class="coach-tab__text">
+                Сентябрь 1998 — Июнь 2002 <br>
+                Санкт-Петербургский политехнический университет Петра Великого <br>
+                Факультет: Компьютерных наук и технологий <br>
+                Специальность: Математика и компьютерные науки <br>
+                Форма обучения: Очная
+              </p>
+              <h3 class="coach-tab__name">Курсы и тренинги</h3>
+              <p class="coach-tab__text">
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+                Ноябрь 2020 — Февраль 2021 <br>
+                Программа дополнительного образования «3D Моделирование» <br>
+                Место проведения: Институт дополнительного образования «Политех» <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240417112204"></script>
+<script src="js/app.min.js?_v=20240417112204"></script>
+</body>
+
+</html>
